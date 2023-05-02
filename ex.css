@@ -1,0 +1,142 @@
+/* Global styles */
+body {
+  font-family: red, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #475;
+  color: #aquamarine;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  color: #darksalmon;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  margin: 0;
+}
+
+section ul {
+  padding-left: 20px;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+section ul li a {
+  color: #777;
+}
+
+/* Contact form styles */
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+  background-color: #red;
+  color: #indianred;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+      body {
+        background-color: lightblue;
+      }
+      h1 {
+        font-size: 28px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+    
+    /* CSS for tablets */
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+      body {
+        background-color: lightskyblue;
+      }
+      h1 {
+        font-size: 36px;
+      }
+      p {
+        font-size: 24px;
+      }
+    }
+    
+    /* CSS for desktop devices */
+    @media only screen and (min-width: 1025px) {
+      body {
+        background-color: lightsteelblue;
+      }
+      h1 {
+        font-size: 48px;
+      }
+      p {
+        font-size: 36px;
+      }
+    }
